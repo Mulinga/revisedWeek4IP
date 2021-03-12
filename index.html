@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzaWebsite</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- introduction starts -->
+    <section class="intro">
+        <ul class="nav justify-content-end navbar-light" id="navBar">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#introL">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutUsL">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#specialL">Chef's List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#buildL">Customise</a>
+            </li>
+            <li class="nav-itemL">
+                <a href="#cartL"><i class="fas fa-shopping-cart mt-3"></i></a>
+            </li>
+
+        </ul>
+        <div class="container-fluid" id="introL">
+            <p>Welcome to
+                <h1>Mulinga's Pizzeria!!!</h1>Its Quite Easy to Place an Order for the Pizza You Want<br> Our Chefs will Prepare it for You!</p>
+        </div>
+
+    </section>
+    <!-- introduction ends -->
+
+    <!-- About us starts -->
+    <section class="aboutUs" id="aboutUsL">
+        <div class="container" id="container2">
+
+            <h2>About Us</h2>
+            <div class="row">
+                <div class="col-md-2" id="par1">
+                    <p>Wholesome and awesome!</p>
+                </div>
+                <div class="col-md-10" id="par2">
+                    <p>Pizza city is the modern foodie's answer to a wholesome and ridiculously delicious crust.<br>Nourishing, wholesome and completely irresistable, pizza city is on a mission to introduce our uniquely healthful menu to the country's community
+                        of thinkers, do-ers and lovers of life<br>Dine with us or we'll deliver to you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us ends -->
+
+    <!-- special card section starts -->
+    <section class="special" id="specialL">
+        <h2 id="title2">Chef's favorites
+            <h4 class="mid">Medium size</h4>
+        </h2>
+        <div class="card-container">
+            <div class="card">
+                <img class="card-img" src="images/allmeat.jpg" alt="">
+                <h2 class="mt-3">All Meats</h2>
+                <p class="card-par">Our delicious tomato sauce base topped with a fantastic combination of roast chicken pieces matched with our sweet, juicy pineapple chunks. The kids will love this one and so will you!</p>
+                <div class="price">$15</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/hawaian.jpeg" alt="">
+                <h2 class="mt-3">Hawaiian</h2>
+                <p class="card-par">Pineapple might not be the first thing that comes to mind when you think pizza. But add in some ham and it creates an unexpectedly solid sweet and salty combination for this type of pizza.</p>
+                <div class="price">$17</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/magherita.jpeg" alt="">
+                <h2 class="mt-3">Margherita</h2>
+                <p class="card-par">A typical Neapolitan pizza, made with a tomato base,mozzarella cheese and generously sprinkled with oregano.</p>
+                <div class="price">$16</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/pepperoni.jpeg" alt="">
+                <h2 class="mt-3">Pepperoni</h2>
+                <p class="card-par">A classic pizza with spicy pepperoni sausage and our special tomato sauce drizzled over the top.</p>
+                <div class="price">$15</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/3cheese.jpeg" alt="">
+                <h2 class="mt-3">3 Cheeses</h2>
+                <p class="card-par">No sauce - just lashings of mozzarella, fetta and bocconcini cheeses.</p>
+                <div class="price">$12</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/mexicana.jpeg" alt="">
+                <h2 class="mt-3">Mexicana</h2>
+                <p class="card-par">A spicy treat for those who like it HOT. Contains spicy pepperoni, onion slices, fresh strips of capsicum topped with mozzarella cheese. Want it extra spicy? Add both chilli flakes and jalapenos.</p>
+                <div class="price">$14</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+            <div class="card">
+                <img class="card-img" src="images/vegeterian.jpeg" alt="">
+                <h2 class="mt-3">Vegetarian</h2>
+                <p class="card-par">No meat, no worries! Market fresh slices of onion, mushrooms, capsicum and sweet juicy pineapple chunks.</p>
+                <div class="price">$12</div>
+                <a class="cartRef" href="#"><button>Add To Cart</button></a>
+            </div>
+
+        </div>
+        <div class="select"></div>
+    </section>
+
+    <!-- special card section ends -->
+
+    <!-- buid your own pizza form start -->
+    <section class="buid" id="buildL">
+        <div class="container" id="containerBuild">
+            <h2 id="title3">Are you looking to DIY your pizza? Don't stress, we got you covered.</h2>
+            <div class="step1">
+                <h2>Step 1: Choose a Size</h2>
+                <input type="radio" id="Small" name="size" value="Small" class="clickable" required>
+                <label for="Small">Small ($04)</label><br>
+                <input type="radio" id="Medium" name="size" value="Medium" class="clickable" required>
+                <label for="Medium">Medium ($07)</label><br>
+                <input type="radio" id="Large" name="size" value="Large" class="clickable" required>
+                <label for="Large">Large ($14)</label><br>
+            </div>
+            <div class="step2">
+                <h2>Step 2: Choose The Base</h2>
+                <input type="radio" id="OriginalPan" name="base" value="Original Pan" required>
+                <label for="OriginalPan">Original Pan ($01)</label><br>
+                <input type="radio" id="Traditional" name="base" value="Traditional" required>
+                <label for="Traditional">Traditional ($01)</label><br>
+                <input type="radio" id="ThinNCrispy" name="base" value="Thin 'N' Crispy" required>
+                <label for="Thin'N'Crispy">Thin 'N' Crispy ($02)</label><br>
+                <input type="radio" id="StuffedCrust" name="base" value="Stuffed Crust" required>
+                <label for="StuffedCrust">Stuffed Crust ($02)</label><br>
+                <input type="radio" id="GlutenFree" name="base" value="Gluten Free" required>
+                <label for="GlutenFree">Gluten Free ($01)</label><br>
+            </div>
+            <div class="step3">
+                <h2>Step 3: Choose a sauce</h2>
+                <input type="radio" id="TomatoSauce" name="sauce" value="Tomato Sauce">
+                <label for="TomatoSauce">Tomato Sauce</label><br>
+                <input type="radio" id="BBQsauce" name="sauce" value="BBQ sauce">
+                <label for="BBQsauce">BBQ sauce</label><br>
+                <input type="radio" id="Redsauce" name="sauce" value="Red sauce">
+                <label for="Redsauce">Red sauce</label><br>
+                <input type="radio" id="Removesauce" name="sauce" value="Remove sauce">
+                <label for="Removesauce">Remove sauce</label><br>
+            </div>
+            <div class="step4">
+                <h2>Step 4: Choose Your Toppings</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="prices">Meats:$4 each</div>
+                        <h4>MEATS</h4>
+                        <div class="toppings">
+                            <input type="checkbox" id="Anchovies" name="topping">
+                            <label for="Anchovies">Anchovies</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Pepperoni" name="topping">
+                            <label for="Pepperoni">Pepperoni</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="GrilledChicken" name="topping">
+                            <label for="GrilledChicken">Grilled Chicken</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="ItalianSausage" name="topping">
+                            <label for="ItalianSausage">Italian Sausage</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Beef" name="topping">
+                            <label for="Beef">Beef</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Bacon" name="topping">
+                            <label for="Bacon">Bacon</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Meatballs" name="topping">
+                            <label for="Meatballs">Meatballs</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="prices">Cheeses:$3 each</div>
+                        <h4>CHEESES</h4>
+                        <div class="toppings">
+                            <input type="checkbox" id="BlueCheese" name="topping">
+                            <label for="BlueCheese">Blue Cheese</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Cheddar" name="topping">
+                            <label for="Cheddar">Cheddar</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Feta" name="topping">
+                            <label for="Feta">Feta</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Mozzarella" name="topping">
+                            <label for="Mozzarella">Mozzarella</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Parmesan" name="topping">
+                            <label for="Parmesan">Parmesan</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="prices">Vg&Fr:$2 each</div>
+                        <h4>VEGGIES & FRUITS</h4>
+                        <div class="toppings">
+                            <input type="checkbox" id="Basil" name="topping">
+                            <label for="Basil">Basil</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="JalepenoPeppers" name="topping">
+                            <label for="JalepenoPeppers">Jalepeno Peppers</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Oregano" name="topping">
+                            <label for="Oregano">Oregano</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="RedOnion" name="topping">
+                            <label for="RedOnion">Red Onion</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="Mushrooms" name="topping">
+                            <label for="Mushrooms">Mushrooms</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="DicedTomato" name="topping">
+                            <label for="DicedTomato">Diced Tomato</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="RedBellPepper" name="topping">
+                            <label for="RedBellPepper">Red Bell Pepper</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="prices">Other:$5 each</div>
+                        <h4>OTHER</h4>
+                        <div class="toppings">
+                            <input type="checkbox" id="BalsamicGlaze" name="topping">
+                            <label for="BalsamicGlaze">Balsamic Glaze</label>
+                        </div>
+                        <div class="toppings">
+                            <input type="checkbox" id="PermesanHerbShake" name="topping">
+                            <label for="PermesanHerbShake">Permesan-Herb Shake</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="submit" class="btn-outline-secondary">Add Item(s) To Cart</button>
+
+        </div>
+    </section>
+    <!-- buid your own pizza form ends -->
+    <section class="cart" id="cartL">
+        <div class="products-container">
+            <div class="product-header">
+                <h1>CART</h1>
+            </div>
+            <div id="log"></div>
+            <button class="btn-outline-success" id="bt1">Checkout</button>
+            <button class="btn-outline-success" id="bt2">Delivery</button>
+        </div>
+
+    </section>
+</body>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
