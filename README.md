@@ -22,7 +22,6 @@ You will need:
 * Stable internet connection
 * A github account
 * Repository used to host the website
-## [Link]( https://mulinga.github.io/revisedWeek4IP/) to live webpage
 
 ## Copyright
 * 2021 Mulinga Charles Kyalo
